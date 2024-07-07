@@ -4,6 +4,7 @@ import Client from "./component/Client.js";
 import Community from "./component/Community.js";
 import Hero from "./component/Hero.js";
 import Herobanner from "./component/Herobanner.js";
+import Footer from "./component/Footer.js";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Herobanner/>
       <Client/>
       <Community/>
+      <Footer/>
     </div>
   );
 }
